@@ -50,6 +50,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 25px;
+    padding-bottom: 50px;
 }
 
 .container1 button{
