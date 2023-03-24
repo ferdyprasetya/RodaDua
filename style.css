@@ -31,7 +31,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(../img/placeholder.png);
+    background-image: url(../img/wallpaperflare.com_wallpaper.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -43,6 +43,8 @@
 
 #headerimg{
     margin: auto;
+    width: 255px;
+    height: 355px;
 }
 
 #myBtn {
@@ -86,10 +88,9 @@
     padding-bottom: 50px;
 }
 
-.container1 button{
-    margin: 45px;
-    height: 175px;
-    width: 175px;
+.container1 a{
+    justify-content: center;
+    text-align: center;
 }
 
 .jumbotron {
@@ -145,8 +146,15 @@
     font-size: 20px;
 }
 
+.description {
+    height: 450px;
+    overflow: scroll;
+}
+
 .flex2 img {
     width: 600px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px black;
 }
 
 .buy-btn {
@@ -161,7 +169,12 @@
     display: block;
     text-decoration: none;
     color: #000;
-    margin-bottom: 75px;
+    margin-bottom: 75px; 
+}
+
+.buy-btn:hover {
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 3px 0 rgba(0, 0, 0, 0.19);
+    color: black;
 }
 
 .footer1 {
@@ -192,8 +205,8 @@
 }
 
 .footer2 img {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     margin-left: 20px;
     margin-right: 20px;
     box-sizing: border-box;
