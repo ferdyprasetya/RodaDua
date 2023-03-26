@@ -181,7 +181,7 @@ const jawabanmuncul = () => {
             return
         } else if (!hasil) {
             //default jawaban pertama
-            hasil = jawaban[0] 
+            hasil = jawaban[0]
         }
     })
 
