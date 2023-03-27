@@ -201,3 +201,12 @@ const jawabanmuncul = () => {
     const allblockjawab = document.querySelectorAll('.block-jawab')
     Array.from(allblockjawab).forEach(blockjawab => blockjawab.replaceWith(blockjawab.cloneNode(true)))
 }
+
+const disableQuestionBlock = (soalId, kepilih) => {
+    const currentQuestionBlock = document.getElementById(soalId + "-pertanyaan")
+
+    Array.from(currentQuestionBlock.children).forEach(block => {
+        if (block.children.item(1).innerText !== kepilih) {
+            block.style.opacity = "50%"
+        }
+    }
